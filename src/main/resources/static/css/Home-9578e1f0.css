@@ -1,0 +1,21 @@
+
+#MainHeader {
+  position: fixed;
+  height: 68px;
+  width: 100vw;
+
+  border-bottom: 1px solid #e6e7e7;
+
+  z-index: 1;
+}
+#MainSider {
+  position: fixed;
+  margin-top: 68px;
+  height: calc(100vh - 68px);
+}
+#MainContent {
+  margin-top: 68px;
+  margin-left: 232px;
+  width: calc(100vw - 232px);
+  min-height: calc(100vh - 68px);
+}
